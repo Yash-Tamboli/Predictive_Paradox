@@ -4,13 +4,14 @@ This repository features an end to end Machine Learning pipeline designed for hi
 This model integrates historical PGCB load data, hourly weather metrics, and World Bank economic indicators to predict a robust solution for energy management.
 
 Project Structure
-├── Data/
-│   ├── PGCB_date_power_demand.xlsx  # Raw Grid Data
-│   ├── weather_data.xlsx            # Hourly Weather
-│   └── economic_full_1.csv          # World Bank Indicators
-├── solution.ipynb               # End-to-end ML pipeline
-├── requirements.txt             # Project dependencies 
-└── readme.md                    # Project documentation
+Data/
+ PGCB_date_power_demand.xlsx  # Raw Grid Data
+ weather_data.xlsx            # Hourly Weather
+ economic_full_1.csv          # World Bank Indicators
+solution.ipynb               # End-to-end ML pipeline
+requirements.txt             # Project dependencies 
+README.md                    # Project documentation
+Report.txt                   # Project Report
 
 -Performance Metric
 MAPE: 2.46% (Mean Absolute Percentage Error)
